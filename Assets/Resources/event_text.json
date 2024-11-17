@@ -1,0 +1,130 @@
+{
+    "scenes": [
+        {
+            "eventName": "prologue",
+            "sceneId": "prologue-1",
+            "dialogues": [
+                {
+                    "character": "오딘",
+                    "text": "음료수는 데자와.",
+                    "nextSceneId": "prologue-2"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },
+        {
+            "eventName": "prologue",
+            "sceneId": "prologue-2",
+            "dialogues": [
+                {
+                    "character": "제우스",
+                    "text": "으윽... 상한 고구마 라떼맛 나는걸 좋아하는거야?",
+                    "nextSceneId": "choice"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },
+        {
+            "eventName": "prologue",
+            "sceneId": "prologue",
+            "dialogues": [
+                {
+                    "character": "",
+                    "text": "어째서인지 이 싸움에 왜 끼었는지는 모르겠다.",
+                    "nextSceneId": "prologue-1"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },        
+        {
+            "eventName": "prologue",
+            "sceneId": "choice",
+            "dialogues": [
+                {
+                    "character": "오딘",
+                    "text": "매니저 데자와는 최고겠지?",
+                    "choices": [
+                        {
+                            "text": "응, 최고야",
+                            "nextSceneId": "prologue-A-1"
+                        },
+                        {
+                            "text": "상한 고구마라떼인걸",
+                            "nextSceneId": "prologue-B-1"
+                        }
+                    ]
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },
+        {
+            "eventName": "prologue-A-1",
+            "sceneId": "prologue-A-1",
+            "dialogues": [
+                {
+                    "character": "",
+                    "text": "분이기가 심상치 않다. 간담이 싸늘하다",
+                    "nextSceneId": "prologue-A-2"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },    
+        {
+            "eventName": "prologue-A-2",
+            "sceneId": "prologue-A-2",
+            "dialogues": [
+                {
+                    "character": "제우스",
+                    "text": "이.... 이이?",
+                    "nextSceneId": "prologue-A-3"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },
+        {
+            "eventName": "prologue-A-3",
+            "sceneId": "prologue-A-3",
+            "dialogues": [
+                {
+                    "character": "제우스",
+                    "text": "맛알못 자식아!!",
+                    "nextSceneId": "choice"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },        
+        {
+            "eventName": "prologue-B-1",
+            "sceneId": "prologue-B-1",
+            "dialogues": [
+                {
+                    "character": "오딘",
+                    "text": "그래 데자와가 상한 고구마라떼 맛이고 인기도 없다는 걸 알고있어",
+                    "nextSceneId": "prologue-B-2"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        },   
+        {
+            "eventName": "prologue-B-2",
+            "sceneId": "prologue-B-2",
+            "dialogues": [
+                {
+                    "character": "오딘",
+                    "text": "하지만 이 녀석이 용서할 수 있을까?",
+                    "nextSceneId": "choice"
+                }
+            ],
+            "background": "background1.jpg",
+            "sceneCharacters": ["오딘", "제우스"]
+        }
+    ]
+}

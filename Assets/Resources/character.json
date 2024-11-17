@@ -1,0 +1,20 @@
+{
+    "characters": [
+        {
+            "characterId": "zeus",
+            "name": "제우스",
+            "description": "제우스",
+            "spritePath": {
+                "standing": "Sprites/zeus_standing"
+            }
+        },
+        {
+            "characterId": "odin", 
+            "name": "오딘", 
+            "description": "오딘", 
+            "spritePath": {
+                "standing": "Sprites/odin_standing"
+            }
+        }
+    ]
+}
